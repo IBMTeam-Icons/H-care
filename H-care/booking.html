@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>H - Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+<link href="style.css"rel="stylesheet"type="text/css"/>
+<style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+
+</head>
+<body>
+    
+<script>
+window.watsonAssistantChatOptions = {
+    integrationID: "684236e3-81c2-4c49-9100-a003fc5634e5", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "7bb102cb-517e-4fd9-af87-e62550e38c79", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+setTimeout(function(){
+  const t=document.createElement('script');
+  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+  document.head.appendChild(t);
+});
+</script>
+<header>
+<h1 style="color: rgba(104, 238, 190, 1);">H - Care</h1>
+
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="appoint.html">Appointments</a></li>
+<li><a href="emergency.html">Emergency Services</a></li>
+<li><a href="booking.html">Medicine Booking</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section style="background-color: rgba(246, 246, 246, 1);">
+    <h1 style="color: black;"></h1>
+<img src="img/Frame 1469.png"alt="h-care appointments"width="390"height="844"/>
+
+
+<div class="col-md-4 col-sm-4">
+    <h3><mark>Contact Info</mark></h3>
+    <div class="space"></div>
+    <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Chengannur Town<br> Alappuzha, Pin: 689121</p>
+    <div class="space"></div>
+    <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@hcare.com</p>
+    <div class="space"></div>
+    <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+  </div>
+</section>
+</body>
+</html>

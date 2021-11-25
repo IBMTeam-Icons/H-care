@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>H - Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+<link href="style.css"rel="stylesheet"type="text/css"/>
+
+</head>
+<body>
+    
+<script>
+window.watsonAssistantChatOptions = {
+    integrationID: "684236e3-81c2-4c49-9100-a003fc5634e5", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "7bb102cb-517e-4fd9-af87-e62550e38c79", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+setTimeout(function(){
+  const t=document.createElement('script');
+  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+  document.head.appendChild(t);
+});
+</script>
+<header>
+<h1 style="color: rgba(104, 238, 190, 1);">H - Care</h1>
+
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="appoint.html">Appointments</a></li>
+<li><a href="emergency.html">Emergency Services</a></li>
+<li><a href="booking.html">Medicine Booking</a></li>
+</ul>
+</nav>
+</header>
+
+<aside>
+<blockquote>“Your health account, your bank account they are the same thing.The more
+    you put in the more you can take."</blockquote>
+- Jack Lalanne
+</aside>
+<section style="background-color: white;">
+    <h1 style="color: black;"><u>About Us</u></h1>
+<img class="photo-left" src="img/h-care.png"alt="h-care logo"width="128"height="128"/>
+<p>H - Care is a health assistant version of the available virtual assistant applications, or
+    simply an ‘Alexa’ version that helps to manage the health activities and
+    related information of a person. The motive of this application is to help
+    the user stay healthy, to aid them in their hospital services and to provide a
+    platform where they can freely communicate.</p>
+    <p>With this system the process of appointment booking, medicine shopping, pill reminder and consulting a doctor becomes effortless and more transparent and thereby helps to maintain a safe environment in hospitals.
+    A user can register with their email/mobile no and set a password.This provides a platform where the patient can book appointments with doctors in the available hospitals or clinics. The user will get recommendations of nearby hospitals. Online payment can be done and live tracking of appointments will be
+    available which can help to save time and avoid rush in hospitals.Also, the users can set medicine reminders .
+    </p>
+
+<div class="col-md-4 col-sm-4">
+    <h3><mark>Contact Info</mark></h3>
+    <div class="space"></div>
+    <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Chengannur Town<br> Alappuzha, Pin: 689121</p>
+    <div class="space"></div>
+    <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@hcare.com</p>
+    <div class="space"></div>
+    <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+  </div>
+</section>
+</body>
+</html>
